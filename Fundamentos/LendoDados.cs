@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Fundamentos {
     class LendoDados {
         public static void Executar(){
+
             Console.WriteLine("Qual seu nome?");
             string nome = Console.ReadLine();
 

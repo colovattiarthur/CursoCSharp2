@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.Fundamentos;
 
 namespace CursoCSharp
@@ -15,7 +15,8 @@ namespace CursoCSharp
                 {"Notação Ponto - Fundamentos ",NotacaoPonto.Executar },
                 {"Lendo Dados - Fundamentos",LendoDados.Executar },
                 {"Formatando Números - Fundamentos ",FormatandoNumeros.Executar},
-                 {"Operadoresaritmeticos - Fundamentos" ,OperadoresAritmeticos.Executar}
+                {"Operadoresaritmeticos - Fundamentos" ,OperadoresAritmeticos.Executar},
+                {"ExerciciosOperadores-Fundamentos",Exerciciosifelse.Executar }
             });
 
             central.SelecionarEExecutar();
