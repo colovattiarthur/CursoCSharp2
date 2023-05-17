@@ -8,6 +8,12 @@ using System.Threading.Tasks;
 namespace CursoCSharp.EstruturasDeControle {
     class Exerciciosifelse {
         public static void Executar() {
+            /*convertendo try parse */
+            Console.WriteLine("Digite um numero:");
+            string palavra = Console.ReadLine();
+            int numero;
+            int.TryParse(palavra, out numero);
+            Console.WriteLine($"resultado: {numero}");
             /*
             Console.WriteLine("Em que ano voce nasceu");
             int ano = int.Parse(Console.ReadLine());
