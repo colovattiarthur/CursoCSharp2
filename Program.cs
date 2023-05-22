@@ -20,7 +20,8 @@ namespace CursoCSharp
                  {"EstruturaSwitch-Fundamentos",EstruturaSwitch.Executar},
                 {"EstruturaWhileEfor - Estruturas de controle", EstruturaWhileEfor.Executar },
                  {"Exercicio -EstruturaWhileEfor", ExercicioRepeticao.Executar },
-            });
+                {"Estruturaforeach-Estrutura de controle", Estruturaforeach.Executar },
+            }) ;
 
             central.SelecionarEExecutar();
         }
