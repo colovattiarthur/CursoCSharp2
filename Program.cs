@@ -18,7 +18,8 @@ namespace CursoCSharp
                 {"Operadoresaritmeticos - Fundamentos" ,OperadoresAritmeticos.Executar},
                 {"ExerciciosOperadores-Fundamentos",Exerciciosifelse.Executar },
                  {"EstruturaSwitch-Fundamentos",EstruturaSwitch.Executar},
-                {"EstruturaWhileEfor - Estruturas de controle", EstruturaWhileEfor.Executar }
+                {"EstruturaWhileEfor - Estruturas de controle", EstruturaWhileEfor.Executar },
+                 {"Exercicio -EstruturaWhileEfor", ExercicioRepeticao.Executar },
             });
 
             central.SelecionarEExecutar();

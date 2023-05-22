@@ -9,7 +9,10 @@ namespace CursoCSharp.EstruturasDeControle {
         public static void Executar() {
 
 
-            for(int contador = 1;contador < 10; contador++) {
+
+            /*
+
+            for (int contador = 1; contador < 10; contador++) {
                 Console.WriteLine(contador);
             }
             /*
@@ -21,13 +24,12 @@ namespace CursoCSharp.EstruturasDeControle {
 
             int contador = 1;
 
-            while (contador <= valor) {
-              
+            while (contador < valor){
                 Console.WriteLine(contador);
                 contador+=saltos;
             */
-            }
-
         }
+
     }
 }
+

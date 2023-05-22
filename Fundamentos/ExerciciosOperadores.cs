@@ -10,6 +10,7 @@ namespace CursoCSharp.Fundamentos
     {
         public static void Executar()
         {
+            
             Console.WriteLine("digite sua nota");
             double nota1  =double.Parse(Console.ReadLine());
 
@@ -23,6 +24,15 @@ namespace CursoCSharp.Fundamentos
             double resultado = (nota1 + nota2 + nota3) / 3;
 
             Console.WriteLine($"o resultado é {resultado}");
+            
+
+             Console.WriteLine("qual sua nota?");
+             double N1 = double.Parse (Console.ReadLine());
+
+             Console.WriteLine("digite sua nota?");
+             double N2 = double.Parse  (Console.ReadLine());
+
+
 
         }
     }

@@ -28,6 +28,11 @@ namespace CursoCSharp.Fundamentos
 
             Console.WriteLine($"o resultado é{ resultado2}");
 
+            Console.WriteLine("digite uma nota");
+
+
         }
+         
 }
+
 }
