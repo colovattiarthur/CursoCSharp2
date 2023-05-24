@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.ClasseseMetodos;
 
 namespace CursoCSharp
 {
@@ -17,11 +18,17 @@ namespace CursoCSharp
                 {"Formatando Números - Fundamentos ",FormatandoNumeros.Executar},
                 {"Operadoresaritmeticos - Fundamentos" ,OperadoresAritmeticos.Executar},
                 {"ExerciciosOperadores-Fundamentos",Exerciciosifelse.Executar },
-                 {"EstruturaSwitch-Fundamentos",EstruturaSwitch.Executar},
+                {"EstruturaSwitch-Fundamentos",EstruturaSwitch.Executar},
                 {"EstruturaWhileEfor - Estruturas de controle", EstruturaWhileEfor.Executar },
-                 {"Exercicio -EstruturaWhileEfor", ExercicioRepeticao.Executar },
+                {"Exercicio -EstruturaWhileEfor", ExercicioRepeticao.Executar },
                 {"Estruturaforeach-Estrutura de controle", Estruturaforeach.Executar },
-            }) ;
+                
+                //Classes e metodos
+                {"Membros - Classes e Metodos",Membros.Executar},
+                {"Construtores - Classes e Metodos",Construtores.Executar},
+                {"ExerciciosMetodosComRetorno- Classes e Metodos",MetodosComRetorno.Executar},
+                {"MetodosEstaticos - Classes e Metodos",MetodosEstaticos.Executar},
+            }); 
 
             central.SelecionarEExecutar();
         }
