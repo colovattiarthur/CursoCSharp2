@@ -22,13 +22,20 @@ namespace CursoCSharp
                 {"EstruturaWhileEfor - Estruturas de controle", EstruturaWhileEfor.Executar },
                 {"Exercicio -EstruturaWhileEfor", ExercicioRepeticao.Executar },
                 {"Estruturaforeach-Estrutura de controle", Estruturaforeach.Executar },
-                
                 //Classes e metodos
                 {"Membros - Classes e Metodos",Membros.Executar},
                 {"Construtores - Classes e Metodos",Construtores.Executar},
                 {"ExerciciosMetodosComRetorno- Classes e Metodos",MetodosComRetorno.Executar},
                 {"MetodosEstaticos - Classes e Metodos",MetodosEstaticos.Executar},
+                {"Params - Classes e Metodos ",Params.Executar },
+                {"GetSet -Classes e Metodos",GetSet.Executar },
+                {"GeteSetSegundoExemplo - Classes e Metodos", GeteSetSegundoExemplo.Executar },
+                {"ExercicioGetSet - Classes e Metodos", ExercicioGetSet.Executar},
+                {"Exercicio2GetSet - Classes e metodos", Exercicos2GetSet.Executar},
+                {"ExercicioGetSet3 -Classes e Metodos", ExercicioGetSet3.Executar},
+                 
             }); 
+
 
             central.SelecionarEExecutar();
         }
