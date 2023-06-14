@@ -13,7 +13,7 @@ namespace CursoCSharp
     {
         static void Main(string[] args)
         {
-            var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+              var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Variaveis e Constantes - Fundamentos",VariaveisEConstantes.Executar },
                 {"Notação Ponto - Fundamentos ",NotacaoPonto.Executar },
@@ -44,8 +44,11 @@ namespace CursoCSharp
                 //poo - programaçao Orientada a objeto
                 {"Herança - POO ",Heranca.Executar },
                 {"ConstrutorThis - POO", ConstrutorThis.Executar },
-                 {"Encapsulamento -POO",Encapsulamento.Executar}
-            }); 
+                {"Encapsulamento -POO",POO.Encapsulamento.Executar},
+                  {"Polimorfismo -POO",Polimorfismo.Executar },
+                  { "Polimorfismo -POO",ExercicioPolimorfismo.Executar }
+                   {"Abstract POO",Abstract.Executar }
+              });
 
 
             central.SelecionarEExecutar();
